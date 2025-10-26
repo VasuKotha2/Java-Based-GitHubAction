@@ -2,7 +2,7 @@ name: CICD Pipeline
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master", "main" ]
 jobs:
   compile:
     runs-on: self-hosted
